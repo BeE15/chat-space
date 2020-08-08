@@ -23,9 +23,9 @@
 |Column|Type|Options|
 |------|----|-------|
 |text|text|null: false|
-|text|text||
-|user_id|integer|null: false|
-|group_id|integer|null: false|
+|image|text||
+|user_id|integer|null: false, foreign_key: true|
+|group_id|integer|null: false, foreign_key: true|
 ### Association
 - belongs_to :users
 - belongs_to :groups
