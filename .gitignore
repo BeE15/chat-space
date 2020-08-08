@@ -32,7 +32,6 @@
 /public/packs-test
 /node_modules
 /yarn-error.log
-/bin
 yarn-debug.log*
 .yarn-integrity
 public/uploads/*
